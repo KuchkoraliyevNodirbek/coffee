@@ -1,0 +1,214 @@
+.select {
+  padding-top: 80px;
+}
+
+.select__all {
+  background-repeat: no-repeat;
+  background-image: url(../img/Group\ 12.png);
+  background-position: top center;
+  background-size: contain;
+
+  //   width: 327px;
+  //   height: 1499px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.select__titles {
+  p {
+    width: 300px;
+
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+  }
+}
+.select__titles {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+
+  color: white;
+}
+.select__products {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.select__product {
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #0e8784;
+
+  margin-bottom: 25px;
+  border-radius: 10px;
+  transition: all 0.8s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.select__logo {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.select__title {
+  padding-bottom: 25px;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+}
+.select__texts {
+  padding-bottom: 50px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  p {
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+
+    color: white;
+  }
+}
+
+@media (min-width: 735px) {
+  .select__all {
+    background-repeat: no-repeat;
+    background-image: url(../img/Selsct1.svg);
+    background-position: top center;
+    background-size: contain;
+
+    width: 688px;
+    // height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .select__titles {
+    p {
+      width: 420px;
+
+      font-family: Barlow;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 24px;
+    }
+  }
+  .select__product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .select__logo {
+    padding-left: 70px;
+  }
+  .select__texts {
+    width: 344px;
+    height: 98px;
+    padding-top: 10px;
+  }
+  .select__title {
+    padding-bottom: 0;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+  }
+  .select__text {
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .select__all {
+    background-repeat: no-repeat;
+    background-image: url(../img/Selsct2.svg);
+    background-position: top center;
+    background-size: contain;
+
+    width: 1150px;
+  }
+
+  .select__product {
+    width: 350px;
+    height: 382px;
+
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-bottom: 48px;
+    padding-bottom: 50px;
+  }
+  .select__logo {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+  .select__text {
+    width: 255px;
+    height: 134px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .select__title {
+    padding-bottom: 24px;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+  }
+  .select__text {
+    text-align: center;
+    font-size: 16px;
+  }
+  .select__products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .select__titles {
+    h1 {
+      font-size: 45px;
+    }
+    p {
+      width: 540px;
+      height: 77px;
+      top: 72px;
+      gap: 0px;
+      opacity: 0.8px;
+      font-family: Barlow;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 24px;
+    }
+  }
+}
